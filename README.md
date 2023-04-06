@@ -1,3 +1,3 @@
 # Consulta CEP   
 
-Consumindo uma API de CEP com Javascript utilizando Fetch API.
+Consumindo a API pública viaCEP com Javascript utilizando Fetch API.
