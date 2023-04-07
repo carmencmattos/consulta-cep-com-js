@@ -9,12 +9,11 @@
     <title>Consulta CEP | API ViaCEP </title>
 </head>
 <body>
-    <h1>Consulta endereço ViaCEP</h1>
-    <label>Digite o CEP: </label>
-    <input type="number" id="cep"/>
-    <button onclick="consultaEndereco()">Consultar</button>
-    <div id="resultado">
-        <p>Seu resultado aqui</p>
+    <h1>Consulta endereço: </h1>
+    <input type="number" id="cep" placeholder="Digite o CEP"/>
+    <button class ="pesquisar" onclick="consultaEndereco()">Pesquisar</button>
+    <div id="resultado" class="hide">
+        <p>Resultado da busca</p>
 
     </div>
     

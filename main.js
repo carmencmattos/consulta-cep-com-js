@@ -16,10 +16,9 @@ function consultaEndereco() {
 function mostrarEndereco(dados) {
     let resultado = document.querySelector('#resultado');
     if (dados.erro) {
-        resultado.innerHTML = "Não foi possível localizar endereço!"
+        resultado.innerHTML = "Não foi possível localizar o endereço!"
     } else {
-        resultado.innerHTML =  `<p>Endereco: ${dados.logradouro}</p>
-                                <p>Complemento: ${dados.complemento}</p>
+        resultado.innerHTML =  `<p>Endereço: ${dados.logradouro}</p>
                                 <p>Bairro: ${dados.bairro}</p>
                                 <p>Cidade: ${dados.localidade} - ${dados.uf}</p>`
     }
